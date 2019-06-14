@@ -2,6 +2,6 @@ FROM node:8
 
 MAINTAINER pastelInc <keyaki765@gmail.com>
 
-RUN npm install -g elm@0.19 elm-test@0.19 --no-progress --unsafe-perm=true --allow-root
+RUN npm install -g elm-test@elm0.19.0 --no-progress --unsafe-perm=true --allow-root
 
 ENTRYPOINT ["elm-test"]
